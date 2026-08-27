@@ -1,0 +1,84 @@
+{
+  "categories": [
+    {
+      "id": "science",
+      "label": "Science",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Astronomy",
+        "https://en.wikipedia.org/wiki/Biology",
+        "https://www.nasa.gov/news/",
+        "https://www.nature.com/"
+      ]
+    },
+    {
+      "id": "cooking",
+      "label": "Cooking",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Culinary_arts",
+        "https://www.allrecipes.com/",
+        "https://www.bbc.co.uk/food",
+        "https://en.wikipedia.org/wiki/Baking"
+      ]
+    },
+    {
+      "id": "sports",
+      "label": "Sports",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Association_football",
+        "https://www.espn.com/",
+        "https://en.wikipedia.org/wiki/Olympic_Games",
+        "https://www.bbc.com/sport"
+      ]
+    },
+    {
+      "id": "gardening",
+      "label": "Gardening",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Gardening",
+        "https://en.wikipedia.org/wiki/Horticulture",
+        "https://www.rhs.org.uk/advice",
+        "https://en.wikipedia.org/wiki/Botany"
+      ]
+    },
+    {
+      "id": "history",
+      "label": "History",
+      "urls": [
+        "https://en.wikipedia.org/wiki/History",
+        "https://en.wikipedia.org/wiki/Archaeology",
+        "https://www.bbc.co.uk/history",
+        "https://en.wikipedia.org/wiki/Ancient_Rome"
+      ]
+    },
+    {
+      "id": "music",
+      "label": "Music",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Music",
+        "https://en.wikipedia.org/wiki/Jazz",
+        "https://www.npr.org/music/",
+        "https://en.wikipedia.org/wiki/Classical_music"
+      ]
+    },
+    {
+      "id": "travel",
+      "label": "Travel",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Travel",
+        "https://en.wikipedia.org/wiki/Geography",
+        "https://www.nationalgeographic.com/travel",
+        "https://en.wikipedia.org/wiki/Cartography"
+      ]
+    },
+    {
+      "id": "diy",
+      "label": "DIY / Making",
+      "urls": [
+        "https://en.wikipedia.org/wiki/Do_it_yourself",
+        "https://en.wikipedia.org/wiki/Woodworking",
+        "https://www.instructables.com/",
+        "https://en.wikipedia.org/wiki/Sewing"
+      ]
+    }
+  ]
+}

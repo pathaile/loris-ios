@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* SnakeBrowserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* SnakeBrowserApp.swift */; };
+		A10000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* ContentView.swift */; };
+		A10000000000000000000003 /* BrowserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* BrowserViewModel.swift */; };
+		A10000000000000000000004 /* BrowserWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* BrowserWebView.swift */; };
+		A10000000000000000000005 /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* Bookmark.swift */; };
+		A10000000000000000000006 /* BookmarksStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* BookmarksStore.swift */; };
+		A10000000000000000000007 /* BookmarksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* BookmarksView.swift */; };
+		A10000000000000000000008 /* ContentBlocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* ContentBlocker.swift */; };
+		A10000000000000000000009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* Assets.xcassets */; };
+		A1000000000000000000000A /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000A /* blockerList.json */; };
+		A1000000000000000000000D /* BrowserNavigationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000D /* BrowserNavigationDelegate.swift */; };
+		A1000000000000000000000E /* start.html in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000E /* start.html */; };
+		A1000000000000000000000F /* TrafficLogEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000F /* TrafficLogEntry.swift */; };
+		A10000000000000000000010 /* TrafficLogStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000010 /* TrafficLogStore.swift */; };
+		A10000000000000000000011 /* AdFilterMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* AdFilterMatcher.swift */; };
+		A10000000000000000000012 /* TrafficProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000012 /* TrafficProbe.swift */; };
+		A10000000000000000000013 /* TrafficLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000013 /* TrafficLogView.swift */; };
+		A10000000000000000000014 /* PaidClickPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000014 /* PaidClickPolicy.swift */; };
+		A10000000000000000000015 /* VaultedAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000015 /* VaultedAd.swift */; };
+		A10000000000000000000016 /* AdVaultStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000016 /* AdVaultStore.swift */; };
+		A10000000000000000000017 /* DecoyCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000017 /* DecoyCatalog.swift */; };
+		A10000000000000000000018 /* ObfuscationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000018 /* ObfuscationEngine.swift */; };
+		A10000000000000000000019 /* AdVaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000019 /* AdVaultView.swift */; };
+		A1000000000000000000001A /* PrivacyLabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001A /* PrivacyLabView.swift */; };
+		A1000000000000000000001B /* decoyCatalog.json in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001B /* decoyCatalog.json */; };
+		A1000000000000000000001C /* HomeStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001C /* HomeStartView.swift */; };
+		A1000000000000000000001D /* InterestPressureStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001D /* InterestPressureStore.swift */; };
+		A1000000000000000000001E /* InterestPressurePanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001E /* InterestPressurePanel.swift */; };
+		A1000000000000000000001F /* TrafficLogGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001F /* TrafficLogGuideView.swift */; };
+		A10000000000000000000020 /* MediaAutoUnmute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000020 /* MediaAutoUnmute.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000001 /* SnakeBrowserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeBrowserApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* BrowserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserViewModel.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* BrowserWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserWebView.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* Bookmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookmark.swift; sourceTree = "<group>"; };
+		A20000000000000000000006 /* BookmarksStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksStore.swift; sourceTree = "<group>"; };
+		A20000000000000000000007 /* BookmarksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksView.swift; sourceTree = "<group>"; };
+		A20000000000000000000008 /* ContentBlocker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlocker.swift; sourceTree = "<group>"; };
+		A20000000000000000000009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2000000000000000000000A /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
+		A2000000000000000000000B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2000000000000000000000C /* SnakeBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnakeBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2000000000000000000000D /* BrowserNavigationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserNavigationDelegate.swift; sourceTree = "<group>"; };
+		A2000000000000000000000E /* start.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = start.html; sourceTree = "<group>"; };
+		A2000000000000000000000F /* TrafficLogEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLogEntry.swift; sourceTree = "<group>"; };
+		A20000000000000000000010 /* TrafficLogStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLogStore.swift; sourceTree = "<group>"; };
+		A20000000000000000000011 /* AdFilterMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdFilterMatcher.swift; sourceTree = "<group>"; };
+		A20000000000000000000012 /* TrafficProbe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficProbe.swift; sourceTree = "<group>"; };
+		A20000000000000000000013 /* TrafficLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLogView.swift; sourceTree = "<group>"; };
+		A20000000000000000000014 /* PaidClickPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaidClickPolicy.swift; sourceTree = "<group>"; };
+		A20000000000000000000015 /* VaultedAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultedAd.swift; sourceTree = "<group>"; };
+		A20000000000000000000016 /* AdVaultStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdVaultStore.swift; sourceTree = "<group>"; };
+		A20000000000000000000017 /* DecoyCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoyCatalog.swift; sourceTree = "<group>"; };
+		A20000000000000000000018 /* ObfuscationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObfuscationEngine.swift; sourceTree = "<group>"; };
+		A20000000000000000000019 /* AdVaultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdVaultView.swift; sourceTree = "<group>"; };
+		A2000000000000000000001A /* PrivacyLabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyLabView.swift; sourceTree = "<group>"; };
+		A2000000000000000000001B /* decoyCatalog.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = decoyCatalog.json; sourceTree = "<group>"; };
+		A2000000000000000000001C /* HomeStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStartView.swift; sourceTree = "<group>"; };
+		A2000000000000000000001D /* InterestPressureStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestPressureStore.swift; sourceTree = "<group>"; };
+		A2000000000000000000001E /* InterestPressurePanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestPressurePanel.swift; sourceTree = "<group>"; };
+		A2000000000000000000001F /* TrafficLogGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLogGuideView.swift; sourceTree = "<group>"; };
+		A20000000000000000000020 /* MediaAutoUnmute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaAutoUnmute.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A40000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A40000000000000000000002 /* SnakeBrowser */,
+				A40000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A40000000000000000000002 /* SnakeBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000001 /* SnakeBrowserApp.swift */,
+				A20000000000000000000002 /* ContentView.swift */,
+				A20000000000000000000003 /* BrowserViewModel.swift */,
+				A20000000000000000000004 /* BrowserWebView.swift */,
+				A20000000000000000000005 /* Bookmark.swift */,
+				A20000000000000000000006 /* BookmarksStore.swift */,
+				A20000000000000000000007 /* BookmarksView.swift */,
+				A20000000000000000000008 /* ContentBlocker.swift */,
+				A2000000000000000000000D /* BrowserNavigationDelegate.swift */,
+				A2000000000000000000000F /* TrafficLogEntry.swift */,
+				A20000000000000000000010 /* TrafficLogStore.swift */,
+				A20000000000000000000011 /* AdFilterMatcher.swift */,
+				A20000000000000000000012 /* TrafficProbe.swift */,
+				A20000000000000000000013 /* TrafficLogView.swift */,
+				A20000000000000000000014 /* PaidClickPolicy.swift */,
+				A20000000000000000000015 /* VaultedAd.swift */,
+				A20000000000000000000016 /* AdVaultStore.swift */,
+				A20000000000000000000017 /* DecoyCatalog.swift */,
+				A20000000000000000000018 /* ObfuscationEngine.swift */,
+				A20000000000000000000019 /* AdVaultView.swift */,
+				A2000000000000000000001A /* PrivacyLabView.swift */,
+				A2000000000000000000001C /* HomeStartView.swift */,
+				A2000000000000000000001D /* InterestPressureStore.swift */,
+				A2000000000000000000001E /* InterestPressurePanel.swift */,
+				A2000000000000000000001F /* TrafficLogGuideView.swift */,
+				A20000000000000000000020 /* MediaAutoUnmute.swift */,
+				A20000000000000000000009 /* Assets.xcassets */,
+				A2000000000000000000000B /* Info.plist */,
+				A40000000000000000000004 /* Resources */,
+			);
+			path = SnakeBrowser;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2000000000000000000000C /* SnakeBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000004 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A2000000000000000000000A /* blockerList.json */,
+				A2000000000000000000000E /* start.html */,
+				A2000000000000000000001B /* decoyCatalog.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50000000000000000000001 /* SnakeBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A70000000000000000000003 /* Build configuration list for PBXNativeTarget "SnakeBrowser" */;
+			buildPhases = (
+				A60000000000000000000001 /* Sources */,
+				A30000000000000000000001 /* Frameworks */,
+				A60000000000000000000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnakeBrowser;
+			productName = SnakeBrowser;
+			productReference = A2000000000000000000000C /* SnakeBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A80000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A50000000000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = A70000000000000000000001 /* Build configuration list for PBXProject "SnakeBrowser" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A40000000000000000000001;
+			productRefGroup = A40000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50000000000000000000001 /* SnakeBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A60000000000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000009 /* Assets.xcassets in Resources */,
+				A1000000000000000000000A /* blockerList.json in Resources */,
+				A1000000000000000000000E /* start.html in Resources */,
+				A1000000000000000000001B /* decoyCatalog.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A60000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* SnakeBrowserApp.swift in Sources */,
+				A10000000000000000000002 /* ContentView.swift in Sources */,
+				A10000000000000000000003 /* BrowserViewModel.swift in Sources */,
+				A10000000000000000000004 /* BrowserWebView.swift in Sources */,
+				A10000000000000000000005 /* Bookmark.swift in Sources */,
+				A10000000000000000000006 /* BookmarksStore.swift in Sources */,
+				A10000000000000000000007 /* BookmarksView.swift in Sources */,
+				A10000000000000000000008 /* ContentBlocker.swift in Sources */,
+				A1000000000000000000000D /* BrowserNavigationDelegate.swift in Sources */,
+				A1000000000000000000000F /* TrafficLogEntry.swift in Sources */,
+				A10000000000000000000010 /* TrafficLogStore.swift in Sources */,
+				A10000000000000000000011 /* AdFilterMatcher.swift in Sources */,
+				A10000000000000000000012 /* TrafficProbe.swift in Sources */,
+				A10000000000000000000013 /* TrafficLogView.swift in Sources */,
+				A10000000000000000000014 /* PaidClickPolicy.swift in Sources */,
+				A10000000000000000000015 /* VaultedAd.swift in Sources */,
+				A10000000000000000000016 /* AdVaultStore.swift in Sources */,
+				A10000000000000000000017 /* DecoyCatalog.swift in Sources */,
+				A10000000000000000000018 /* ObfuscationEngine.swift in Sources */,
+				A10000000000000000000019 /* AdVaultView.swift in Sources */,
+				A1000000000000000000001A /* PrivacyLabView.swift in Sources */,
+				A1000000000000000000001C /* HomeStartView.swift in Sources */,
+				A1000000000000000000001D /* InterestPressureStore.swift in Sources */,
+				A1000000000000000000001E /* InterestPressurePanel.swift in Sources */,
+				A1000000000000000000001F /* TrafficLogGuideView.swift in Sources */,
+				A10000000000000000000020 /* MediaAutoUnmute.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A90000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A90000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dwarf-obj";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A90000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2TP5ZPVD3G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SnakeBrowser/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Loris;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.SnakeBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A90000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2TP5ZPVD3G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SnakeBrowser/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Loris;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.SnakeBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A70000000000000000000001 /* Build configuration list for PBXProject "SnakeBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90000000000000000000001 /* Debug */,
+				A90000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A70000000000000000000003 /* Build configuration list for PBXNativeTarget "SnakeBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90000000000000000000003 /* Debug */,
+				A90000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A80000000000000000000001 /* Project object */;
+}

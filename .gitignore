@@ -1,0 +1,30 @@
+# Xcode / macOS
+DerivedData/
+build/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+xcuserdata/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+.DS_Store
+**/.DS_Store
+
+# Secrets / local env
+.env
+.env.*
+*.pem
+*.p12
+AuthKey_*.p8
+GoogleService-Info.plist
+
+# SwiftPM / misc
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+Packages/
+Package.resolved
+
+# Cursor / IDE
+.cursor/
